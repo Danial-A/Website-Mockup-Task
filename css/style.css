@@ -13,7 +13,12 @@ h2,
 h3 {
 	font-family: "Lato", Arial, sans-serif;
 }
-
+.services-section,
+.portfolio,
+.about-section,
+.quote-section {
+	padding: 40px 0;
+}
 h1 {
 	font-weight: 700;
 }
@@ -120,16 +125,10 @@ a.logo:hover{
 
 
 .services-section{
-	padding-top: 50px;
 	border-bottom: 5px solid grey;
 }
 
-.services-section,
-.portfolio,
-.about-section,
-.quote-section {
-	padding: 32px 0;
-}
+
 
 .intro h2,
 .services-section h3,
@@ -412,6 +411,10 @@ body > section.portfolio > div > div:nth-child(2) > ul{
     padding:0 15px;
 } */
 
+.quote-intro{
+    margin-bottom: 30px;
+}
+
 .quote-intro, .contact-information, .quote-form{
     padding: 0 10px !important;
 }
@@ -471,7 +474,15 @@ body > section.portfolio > div > div:nth-child(2) > ul{
 	}
 	.quote-section .intro{
 		text-align: center;
-	}
+    }
+    
+    .float-right{
+        float: none !important;
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
+    }
 }
 
 
@@ -520,9 +531,13 @@ ul.footer-links{
     right: 20;
 }
 
+.copyright-padding, .portfolio-links-padding{
+    padding: 0;
+}
+
+
+
+
 @media screen and (max-width:576px){
-    .float-right{
-        float: none !important;
-        text-align: center;
-    }
+    
 }

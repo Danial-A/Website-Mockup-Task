@@ -11,12 +11,5 @@
 		nextText: ''
 	});
 
-	// portfolio items masonry
-	var $grid = $('#grid');
-	$grid.imagesLoaded( function() {
-		$grid.masonry({
-			itemSelector: 'li'
-		});
-	});
 
 })();
