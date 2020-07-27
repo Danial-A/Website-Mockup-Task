@@ -96,7 +96,7 @@ a.logo:hover{
 .banner {
 	background-color: #eb5055;
 	border-bottom: 6px solid #ea676b;
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 
 .flex-direction-nav a:before {

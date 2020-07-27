@@ -5,7 +5,7 @@
 	// banner flexslider
 	$('.flexslider').flexslider({
 		animation: 'slide',
-		pauseOnHover: true,
+		pauseOnHover: false,
 		controlNav: false,
 		prevText: '',
 		nextText: ''
