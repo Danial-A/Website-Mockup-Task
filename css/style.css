@@ -307,6 +307,11 @@ body > section.portfolio > div > div:nth-child(2) > ul{
     padding: 0;
 }
 
+/* body > section.portfolio > div > div:nth-child(2) > ul, .portfolio-intro{
+    text-align: center;
+    margin: 0 auto;
+} */
+
 .portfolio-links li{
     display: inline-block;
 }
@@ -329,9 +334,10 @@ body > section.portfolio > div > div:nth-child(2) > ul{
     border: 1px solid #fff !important;
 }
 
+
 .grid-section{
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(12,1fr);
     grid-gap: 20px;
     margin:auto;
     padding-bottom: 50px;
@@ -350,6 +356,13 @@ body > section.portfolio > div > div:nth-child(2) > ul{
 .grid-section a:hover{
     transform: scale(1.1);
 }
+@media screen and (max-width:1270px){
+    .grid-section{
+        grid-template-columns: repeat(6,1fr) ;
+    }
+}
+
+
 @media screen and (max-width:1201px){
     .grid-section{
         grid-template-columns: repeat(4,1fr);
