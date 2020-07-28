@@ -127,7 +127,15 @@ a.logo:hover{
 .services-section{
 	border-bottom: 5px solid grey;
 }
-
+.content{
+    padding:0 10px;
+}
+.service-grid{
+    padding :0 15px;
+}
+.icon{
+    padding: 0;
+}
 
 
 .intro h2,
@@ -192,7 +200,11 @@ a.logo:hover{
 .icon-star {
 	background: url('../imgs/support-logo.png');
 }
-
+@media screen and (max-width:633px){
+    .service-grid{
+        text-align: center;
+    }
+}
 
 
 
@@ -358,7 +370,7 @@ body > section.portfolio > div > div:nth-child(2) > ul{
     }
     .intro{
         text-align: center;
-        padding-left: 15px;
+        padding:0 15px;
     }
     body > section.portfolio > div > div:nth-child(2) > ul{
         padding-left: 15px;
@@ -538,6 +550,3 @@ ul.footer-links{
 
 
 
-@media screen and (max-width:576px){
-    
-}
