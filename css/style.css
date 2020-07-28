@@ -7,6 +7,11 @@ body {
 	font-weight: 400;
 	line-height: 22px;
 }
+.container-fluid{
+    padding-right:40px;
+    padding-left: 40px;
+}
+
 
 h1, 
 h2, 
@@ -17,7 +22,8 @@ h3 {
 .portfolio,
 .about-section,
 .quote-section {
-	padding: 40px 0;
+    padding: 40px 0;
+
 }
 h1 {
 	font-weight: 700;
@@ -546,6 +552,7 @@ ul.footer-links{
 .copyright-padding, .portfolio-links-padding{
     padding: 0;
 }
+
 
 
 
