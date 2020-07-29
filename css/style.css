@@ -209,6 +209,12 @@ a.logo:hover{
     .service-grid{
         text-align: center;
     }
+    .contact-information{
+        margin-top: 20px;
+    }
+    .container-fluid{
+        padding: 0 20px;
+    }
 }
 
 
@@ -262,7 +268,7 @@ ul.employee-links li{
         padding: 0 !important;
     }
     .quote-section{
-        padding-left: 10px ;
+        padding-left:0 10px ;
     }
     
 }
